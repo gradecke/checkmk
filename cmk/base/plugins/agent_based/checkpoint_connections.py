@@ -9,7 +9,7 @@
 
 from typing import Dict
 
-from .agent_based_api.v1 import check_levels, register, Service, SNMPTree, state
+from .agent_based_api.v1 import check_levels, register, Service, SNMPTree
 from .agent_based_api.v1.type_defs import CheckResult, DiscoveryResult, Parameters, SNMPStringTable
 from .utils import checkpoint
 
